@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+
+{% block head %}
+<title> Predict </title>
+{% endblock %}
+
+
+{% block body %}
+<h2>Predict</h2>
+
+<form action="/predict" method="POST">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="Measured Depth">Measured Depth</label>
+            <input type="text" class="form-control" id="Measured Depth" name="Measured Depth" placeholder="Measured Depth">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="GR">GR</label>
+            <input type="text" class="form-control" id="GR" name="GR" placeholder="GR">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="NPHI">NPHI</label>
+        <input type="text" class="form-control" id="NPHI" name="NPHI" placeholder="NPHI">
+    </div>
+    <div class="form-group">
+        <label for="RHOB">RHOB</label>
+        <input type="text" class="form-control" id="RHOB" name="RHOB" placeholder="RHOB">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="RT">RT</label>
+            <input type="text" class="form-control" id="RT" name="RT" placeholder="RT">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="THOR">THOR</label>
+            <input type="text" class="form-control" id="THOR" name="THOR" placeholder="THOR">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="URAN">URAN</label>
+            <input type="text" class="form-control" id="URAN" name="URAN" placeholder="URAN">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="K">K</label>
+            <input type="text" class="form-control" id="K" name="K" placeholder="K">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="ki">ki</label>
+        <input type="text" class="form-control" id="ki" name="ki" placeholder="ki">
+    </div>
+    <div class="form-group">
+        <label for="eUi">eUi</label>
+        <input type="text" class="form-control" id="eUi" name="eUi" placeholder="eUi">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="KD%">KD%</label>
+            <input type="text" class="form-control" id="KD%" name="KD%" placeholder="KD%">
+        </div>
+        <div class="form-group col-md-2">
+            <label for="eUD%">eUD%</label>
+            <input type="text" class="form-control" id="eUD%" name="eUD%" placeholder="eUD%">
+        </div>
+    </div>
+    <hr>
+    <br>
+    <button type="submit" class="btn btn-primary">Predict</button>
+    <br>
+    <h5> DRAD is: {{ y_pred }} </h5>
+</form>
+{% endblock %}
