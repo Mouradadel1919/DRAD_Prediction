@@ -16,6 +16,12 @@ The model achieved an exceptional **Mean Squared Error (MSE)** of **7.47e-31** o
 
 ---
 
+## Links  
+- **GitHub Repository**: [GitHub](https://github.com/Mouradadel1919/DRAD_Prediction)  
+- **Docker Image**: [Docker Hub](https://hub.docker.com/r/mouradadel313/drad_flask)
+
+---
+
 ## Key Features  
 1. **Data Preprocessing**: Cleaned and transformed raw data for analysis.  
 2. **Exploratory Data Analysis (EDA)**: Visualized and analyzed patterns in the dataset.  
@@ -71,6 +77,3 @@ This demonstrates high model accuracy and its potential for practical use in pet
 
 ---
 
-## Links  
-- **GitHub Repository**: [GitHub](https://github.com/Mouradadel1919/DRAD_Prediction)  
-- **Docker Image**: [Docker Hub](https://hub.docker.com/r/mouradadel313/drad_flask)  
