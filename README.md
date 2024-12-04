@@ -17,7 +17,6 @@ The model achieved an exceptional **Mean Squared Error (MSE)** of **7.47e-31** o
 ---
 
 ## Links  
-- **GitHub Repository**: [GitHub](https://github.com/Mouradadel1919/DRAD_Prediction)  
 - **Docker Image**: [Docker Hub](https://hub.docker.com/r/mouradadel313/drad_flask)
 
 ---
